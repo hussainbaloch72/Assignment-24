@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 24</title>
+</head>
+<body>
+    <!-- chapters43-48.pdf -->
+
+    <!-- Q1 -->
+    <a href="#" onclick="alert('Welcome to Youtube')">Youtube</a>
+
+    <!-- Q2 -->
+    <a href="#" onclick="alert('Thanks for purchasing a phone from us')">
+        <img src="https://images.priceoye.pk/apple-iphone-6-plus-pakistan-priceoye-na254-500x500.webp" alt="Mobile Image 1" width="200px">
+    </a>
+    <a href="#" onclick="alert('Thanks for purchasing a phone from us')">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQReuJCcB9LwjMjcLdNygEpuFHxlJySNN1de0SwjgpQ&s" alt="Mobile Image 2" width="200px">
+    </a>
+    <a href="#" onclick="alert('Thanks for purchasing a phone from us')">
+        <img src="https://cdn.techjuice.pk/wp-content/uploads/2017/05/LG-V10.png" alt="Mobile Image 3" width="200px" >
+    </a>
+    <a href="#" onclick="alert('Thanks for purchasing a phone from us')">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCL50VwJdN07nBkppOUJxPc6xGL75tpF60BvS4B98njQ&s" alt="Mobile Image 3" width="200px">
+    </a>
+    <!-- Q3 -->
+
+    <table id="data-table">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <!-- Q4 -->
+    <img width="400px" onmouseover="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeIF0FrLFu0NqCZsxlCWrJhxWSCAX_g3WloymB2Qqahw&s'"
+    
+        onmouseout="src= 'https://static.pakwheels.com/2023/12/try.jpg'"
+
+        src="https://i.pinimg.com/originals/8d/6e/a1/8d6ea1a1405e960bc47dfd385f2ba582.jpg"
+        alt="">
+
+    <!-- Q5 -->
+    <h1 id="counter">0</h1>
+    <button id="increaseButton">Increase</button>
+    <button id="decreaseButton">Decrease</button>
+
+    <!--chapters49-52.pdf -->
+
+    <!-- Q1 -->
+
+    <h1>Signup Form</h1>
+    <form id="signup-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="display-data"></div>
+
+    <!-- Q2 -->
+
+    <h1>Item Details</h1>
+    <p>
+        Some brief details about the item:
+        <span id="short-details">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed dapibus pulvinar nibh tempor porta.
+        </span>
+        <span id="full-details">
+            Full details about the item:
+            Fusce luctus vestibulum augue ut aliquet.
+            Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+            In at libero sed nunc venenatis imperdiet sed ornare turpis.
+            Donec vitae dui eget tellus gravida venenatis.
+            Integer fringilla congue eros non fermentum.
+        </span>
+    </p>
+    <button id="read-more-button">Read more</button>
+
+
+    <!-- Q3 -->
+
+    <h1>Student Details</h1>
+    <form id="student-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="roll">Roll Number:</label>
+        <input type="text" id="roll" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll Number</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div id="edit-form" style="display: none;">
+        <h2>Edit Student</h2>
+        <label for="edit-name">Name:</label>
+        <input type="text" id="edit-name">
+        <label for="edit-roll">Roll Number:</label>
+        <input type="text" id="edit-roll">
+        <button id="save-edit">Save</button>
+    </div>
+    <script src="App.js"></script>
+    
+</body>
+</html>   
